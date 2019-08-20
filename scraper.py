@@ -104,6 +104,7 @@ class CollectPosts(object):
                 "//a[@data-hovercard-referer]")
 
             for count, post in enumerate(posts):
+                print(post)
                 # Creating first CSV row entry with the poster name (eg. "Donald Trump")
                 analysis = [poster_names[count].text]
 
@@ -148,6 +149,7 @@ class CollectPosts(object):
                 "//a[@data-hovercard-referer]")
 
             for count, post in enumerate(posts):
+                print(post)
                 # Creating first CSV row entry with the poster name (eg. "Donald Trump")
                 analysis = [poster_names[count].text]
 
