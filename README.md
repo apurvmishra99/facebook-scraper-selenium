@@ -11,7 +11,7 @@ Store your email and password for Facebook login in credentials.txt.
 
 Use `scraper.py` to collect the data. 
 ```
-usage: scrape.py [-h] [--pages PAGES [PAGES ...]] [--groups GROUPS [GROUPS ...]][-d DEPTH]
+usage: fb-scraper/scraper.py [-h] [--pages PAGES [PAGES ...]] [--groups GROUPS [GROUPS ...]][-d DEPTH]
 Data Collection
 arguments:
   -h, --help            show this help message and exit
